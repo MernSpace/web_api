@@ -33,7 +33,7 @@ app.use(limiter)
 
 // Mongo DB Database Connection
 let URI="mongodb+srv://<user>:<pass>@cluster0.g7zuc4b.mongodb.net/school";
-let OPTION={user:'sifat355y',pass:'sifat355y',autoIndex:true}
+let OPTION={user:'',pass:'',autoIndex:true}
 mongoose.connect(URI,OPTION);
 
 
